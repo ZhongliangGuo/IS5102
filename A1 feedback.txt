@@ -1,0 +1,19 @@
+Well written report, illustrating considering multiple aspects of the problem. In section 1.iii, it would be nice to give more precise formulations of queries, e.g. "list branch names and numbers of their members, sorting branches in decreasing order by the number of members".
+
+The E-R diagram captures the given scenario well, uses composite and multivalued attributes, indicated primary keys, mapping cardinality constraints, etc. Some suggestions:
+
+- Are volunteers members? I think better to rename "member" to "person" and don't have its total participation in "has".
+
+- "species" is used in both singular and plural form, not "speice". It is described in i.4 on page 3 as "primary key applied unique constraint", that's a formulation quite hard to read (I understood what you had in mind after reading the rest of the sentence).
+
+- Location is an attribute of "observed case" but it actually common for all species reported at the same "observed_event", so it should be rather moved there to avoid repetitions when multiple sightings are reported at the same location.
+
+The most serious remark though is about the use of "species" in "Observed Species", what duplicates an attribute from "butterfly". A way to proceed would be to use the relationship "count" which you already have between "butterfly" and "observed_case" called and record the number as a relationship attribute.
+
+Otherwise, this is a very good attempt overall, giving consideration to multiple aspects of the problem and showing a very good level of understanding. Well done!
+
+
+
+
+
+
