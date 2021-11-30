@@ -1,0 +1,88 @@
+Report:
+
+- presents mainly correct database schema, provides brief rationale 
+  for design choices made, and identifies primary keys, foreign keys 
+  and attribute types. However, the process of translating the E-R 
+  diagram has some flaws, which luckily dit not result in deviations
+  from the scenario:
+ 
+  - "In E-R diagram, name is a composite attribute" is incorrect
+
+  - the E-R diagram does not display phone as a weak entity set
+ 
+  - "Usually, the length of town is not up to 10" - fine for the
+    practical, but the database definition should not cover "usually",
+    it should cover "always". Looking at a map, you can find a dozen
+    towns with names longer than 10 letters in a minute.
+
+  - "The hours_driven should be INT type, because when the company 
+    calculate the salary, the usually use the integer hours." 
+
+    That could breach workers' rights: Say, a driver drives a bus
+    5 days per week and it takes 1 hour and 12 minutes to go the 
+    airport, and same time back. Do you mean that it will be
+    rounded to 1 and after the week they will be underpaid for
+    two driving hours?
+
+- has acceptable presentation of code and output:
+
+  - fixed-width font better to represent code, preserves indentation
+
+  - output as legible screenshots without 
+
+- has good reflection section at the end of the report, with some
+  interesting details of the development process
+
+- has no references - should have considered adding them to the report 
+  or in the comments in the code
+
+
+Data definition:
+
+- Table definitions show use of not-null constraints, 
+  foreign keys and cascading actions, and also experimenting
+  to test that these features work
+
+- There was no requirement to include tables content
+  in the report - I can see that in the code anyway.
+
+- appropriate attribute types
+
+- correct code to insert values into tables, but why to
+  use multiple INSERT INTO statements? You can insert
+  several tuples in one INSERT statement, that would make
+  the code much more compact and would allow you to create
+  testing dataset much quicker.
+
+- some attempt to construct sensible data covering cases 
+  corresponding to many-to-many and one-to-many relationships
+  (e.g. in 'Phone', 'ServiceTime', 'TimeOfServiceOnStop',
+  partially in 'Drives', but not in 'Station')
+
+
+Data Manipulation:
+
+- four prescribed queries
+
+  - could have used NATURAL JOIN to avoid conditions
+    like `ON d.staff_id = a.staff_id` (also in other queries)
+
+- relevant three own queries and two views: good to see solution
+  for concatenating strings!
+
+Testing:
+
+- code is runnable without errors
+
+Code quality:
+
+- consistent code style
+- use of comments and indentation
+- don't use too long comments - use hard line breaks to make
+  them readable in an editor which does not wrap long lines
+  around.
+
+Overall this contains clear, well-designed code achieving full 
+required functionality, written in good style, together with a 
+good report. This is an evidence of a good insight into the 
+subject. Well done!
