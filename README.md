@@ -7,5 +7,8 @@ Score: 16.5
 ## Assignment 2
 Score: 17.5
 
+## Assignment 3
+Score: not released
+
 ## Note
 All in Chinese, highly recommend you read it in [Typora](https://s4.ax1x.com/2021/12/07/oyHass.png).
