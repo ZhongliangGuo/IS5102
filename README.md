@@ -4,7 +4,7 @@ Author **[210016568](mailto:zg34@st-andrews.ac.uk)**
 ## Assignment 1
 Score: 16.5
 
-## Assignment 2: 17.5
+## Assignment 2
 Score: 17.5
 
 ## Note
