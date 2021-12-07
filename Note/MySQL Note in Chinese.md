@@ -8,8 +8,6 @@
 
 St Andrews的 `IS5102 DBMS` 这门课我从头到尾没听过，全程吃老本，三次作业两次跟SQL本身技术相关的作业分别是16.5/20， 17.5/20，第三次的essay还没出分，在Alex不改教学大纲的前提下够用了。
 
-BTW，Alex的口音好重 捏妈的 给<img src="https://s4.ax1x.com/2021/12/07/oyHass.png" style="zoom:8%;" />听麻了 <img src="https://s4.ax1x.com/2021/12/07/oyHCrR.png" style="zoom: 25%;" />。
-
 ## MySQL语法分类
 
 1. DDL：Data Definition Language——数据定义语言
