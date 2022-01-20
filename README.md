@@ -9,7 +9,16 @@ Score: 17.5
 
 ## Assignment 3
 Score: 14.5
-F**k you groupwork!
+
+## Exam
+$$
+(16.5+17.5+14.5)\div3\times0.6+0.4x=16.8\\
+x=17.75
+$$
+
+
+## Final Score
+Score: 16.8
 
 ## Note
 All in Chinese, highly recommend you read it in [Typora](https://s4.ax1x.com/2021/12/07/oyHass.png).
