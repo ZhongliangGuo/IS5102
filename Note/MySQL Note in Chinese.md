@@ -4,7 +4,7 @@
 
 学的是MySQL，但是跟SQLite差不多，可以直接拿来用。
 
-这个笔记应该是我GitHub上为数不多的华人特供了 <img src="https://s4.ax1x.com/2021/12/07/oyHCrR.png" style="zoom: 25%;" />,用 `Typora` 食用更佳。
+用 `Typora` 食用更佳。
 
 St Andrews的 `IS5102 DBMS` 这门课我从头到尾没听过，全程吃老本，三次作业两次跟SQL本身技术相关的作业分别是16.5/20， 17.5/20，第三次的essay还没出分，在Alex不改教学大纲的前提下够用了。
 
