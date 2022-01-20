@@ -11,8 +11,8 @@ Score: 17.5
 Score: 14.5
 
 ## Exam
-![1](http://latex.codecogs.com/svg.latex?(16.5+17.5+14.5)\div3\times0.6+0.4x=16.8)
-
+![1](http://latex.codecogs.com/svg.latex?(16.5+17.5+14.5)\div3\times0.6+0.4x=16.8\\x=17.75)
+Score: 17.5 or 18
 
 ## Final Score
 Score: 16.8
